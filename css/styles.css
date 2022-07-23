@@ -45,6 +45,10 @@ line-height: 1.5;
   border-bottom-left-radius: 2%;
 }
 
+.mobile-image {
+  display: none;
+}
+
 .imageSection {
   position: absolute;
 }
@@ -98,4 +102,62 @@ line-height: 1.5;
 
 .cartIcon {
   padding-right: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  h1 {
+  font-size: 1.5rem;
+  line-height: 0.9;
+  margin-top: 15px;
+}
+
+h2 {
+  margin: 5px 0 0 0;
+}
+
+p {
+  margin: 5px 0 0 0;
+}
+
+.container-fluid {
+  width: 300px;
+  height: 470px;
+  background-color: #fff;
+  text-align: center;
+  margin: 100px auto auto auto;
+  border: none;
+  border-radius: 2%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+
+.desktop-image {
+  display: none;
+}
+.mobile-image {
+  display: block;
+  width: 300px;
+  height: 170px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.textSection {
+  position: absolute;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 180px;
+  width: 70%;
+}
+
+.original {
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+.button {
+  margin: 15px 25px auto;
+}
+
 }
